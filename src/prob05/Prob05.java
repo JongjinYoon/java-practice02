@@ -29,8 +29,7 @@ public class Prob05 {
 			
 			if (number == correctNumber) {
 				System.out.println("정-답");
-				System.out.println("ㄹ?>> ");
-				
+				System.out.println("다시 하시겠습니까?>> ");
 				String answer = scanner.next();
 				
 				if( answer.equals("n") ){
@@ -43,10 +42,6 @@ public class Prob05 {
 					continue;
 				}
 			}
-			
 		}
-		
-			
-		
 	}
 }
